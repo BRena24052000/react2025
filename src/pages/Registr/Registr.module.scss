@@ -1,0 +1,72 @@
+.registr {
+    display: flex;
+    justify-content: center;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 300px;
+        height: 400px;
+        gap: 10px;
+        background-color: white;
+        padding: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+
+        &-text {
+            text-align: center;
+            font-size: medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        &-btn {
+            background: #568f88;
+            font-weight: 400;
+            font-size: 24px;
+            color: #fff;
+            border-radius: 15px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+            justify-content: center;
+            align-self: center;
+        }
+
+        &-input {
+            width: 430px;
+            height: 55px;
+            border-radius: 10px;
+            border-color: #D3D3D3;
+
+        }
+    }
+
+}
+
+
+// стикер
+// .loader {
+//     display: inline-flex;
+//     gap: 10px;
+//   }
+//   .loader:before,
+//   .loader:after {
+//     content: "";
+//     height: 20px;
+//     aspect-ratio: 1;
+//     border-radius: 50%;
+//     background:
+//       radial-gradient(farthest-side,#000 95%,#0000) 35% 35%/6px 6px no-repeat
+//       #fff;
+//     animation: l5 3s infinite;
+//   }
+//   @keyframes l5 {
+//     0%,11%   {background-position:35% 35%}
+//     14%,36%  {background-position:65% 35%}
+//     38%,61%  {background-position:65% 65%}
+//     64%,86%  {background-position:35% 65%}
+//     88%,100% {background-position:35% 35%}
+//   }
