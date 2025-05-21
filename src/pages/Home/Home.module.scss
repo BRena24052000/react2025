@@ -1,0 +1,82 @@
+.popular,
+.releases {
+    display: flex;
+    gap: 50px;
+    border-radius: 12px;
+    height: 500px;
+
+}
+
+.titleHome {
+    color: #FFFFFF;
+
+}
+
+// .cards {
+//     display: flex;
+// }
+.list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+
+    .cardGenre {
+        
+        width: 180px;
+        height: 80px;
+        border-radius: 12px;
+        text-align: center;
+        align-items: center;
+
+
+    }
+
+}
+
+.recommendationBox {
+    background-color: rgba(157, 110, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e0d8f5;
+    margin: 40px 0;
+
+    .text-content {
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 14px;
+            color: #aaa;
+        }
+    }
+
+    .joinBtn {
+        background-color: #9D6EFF;
+        color: #FFFFFF;
+        padding: 10px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        height: 60px;
+        margin-left: 20px;
+
+        &:hover {
+            background-color: #c28fff;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+footer {
+    color: #aaa; 
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  
+    .footerLinks {
+      display: flex;
+      gap: 20px;
+  
+      a {
+        color: #aaa;
+        text-decoration: none;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  
+    .copyright {
+      font-size: 14px;
+      color: #aaa;
+    }
+  }

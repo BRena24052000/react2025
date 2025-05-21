@@ -1,0 +1,37 @@
+.list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.item {
+    font-family: 'Inter';
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.line {
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background-color: #FF4D4D;
+}
+
+.cardsList {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 25px;
+    margin-bottom: 100px;
+}
+
+.active {
+    border: 1px solid #DCDBDB;
+}
